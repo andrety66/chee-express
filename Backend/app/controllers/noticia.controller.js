@@ -111,7 +111,7 @@ exports.delete = (req, res) => {
 
 // ELiminar todas las noticias de las bases de datos DB.
 exports.deleteAll = (req, res) => {
-    Tutorial.destroy({
+      Noticia.destroy({
       where: {},
       truncate: false
     })

@@ -130,7 +130,7 @@ export default class NoticiasList extends Component {
 
           <button
             className="m-3 btn btn-sm btn-danger"
-            onClick={this.removeAllTutorials}
+            onClick={this.removeAllNoticias}
           >
             Remover Todo
           </button>
